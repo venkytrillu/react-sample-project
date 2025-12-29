@@ -40,9 +40,9 @@ function FetchDataUseEffect() {
     }
 
     return (
-        <div>
+        <div style={{ padding: "20px" }}>
             <h1>Fetched Users Data From API </h1>
-            <ul style={{ display: "grid", gap: "10px", flexWrap: "wrap", gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))" }}>
+            <ul style={{ display: "grid", gap: "10px", flexWrap: "wrap",  gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))" }}>
                 {posts.map((user) => (
                     <li key={user.id}>
                         <h3>{user.name}</h3>

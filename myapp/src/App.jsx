@@ -1,20 +1,13 @@
-import './App.css';
-import Navbar from './components/navbar.jsx';
-import Header from './components/header.jsx';
+import Navbar from './Components/navbar.jsx';
 import React from 'react';
-import {UserForm, Todo} from './components/usingUseState.jsx';
-import Home from './pages/home.jsx';
-import FetchDataUseEffect from './components/FetchDataUseEffect.jsx';
+import {UserForm} from './Components/usingUseState.jsx';
+import Home from './Components/Home.jsx';
 
 function App() {
   return (
     <div>
-    {/* <Navbar />
-     <Header /> 
-      <UserForm />
-      <Todo /> */}
       <Home />
-      <FetchDataUseEffect />
+      
     </div>
   );
 }

@@ -1,5 +1,5 @@
-import Button from "../components/button";
-import ProductCard from "../components/productCard";
+import Button from "../Components/button";
+import ProductCard from "../Components/productCard";
 import React from "react";
 
 const Home = () => {
